@@ -1127,7 +1127,7 @@ footer{background:var(--ink);color:var(--cream)}
 // ── TRANSLATIONS ──────────────────────────────────────────────────────────────
 const T = {
   en:{
-    "nav.about":"About","nav.exp":"Experience","nav.skills":"Skills","nav.projects":"Projects","nav.services":"Services","nav.contact":"Contact",
+    "nav.about":"About","nav.exp":"Experience","nav.skills":"Skills","nav.projects":"Projects","nav.services":"Services","nav.wp":"WordPress","nav.contact":"Contact",
     "hero.available":"Available for Freelance","hero.title":"Web Integrator · Front-End Developer",
     "hero.desc":"Turning Figma designs into pixel-perfect, responsive websites for 5 years — specialising in HTML5, SCSS, JavaScript, WordPress & Symfony.",
     "hero.cta1":"View Projects","hero.cta2":"Contact Me","hero.badge":"Years of\nExperience","hero.scroll":"Scroll",
@@ -1166,7 +1166,7 @@ const T = {
     "srv5.t":"Website Maintenance","srv5.d":"Updates, performance monitoring and security patches.",
     "srv6.t":"SEO Optimisation","srv6.d":"Technical SEO audits and page-speed improvements.",
     "proj.title":"Projects","proj.label":"Featured Work","proj.demo":"↗ Live Demo",
-    "proj.ghonly":"GitHub only","proj.webadmin":"Web Admin","proj.androidapp":"Android App","proj.viewall":"View All on GitHub →",
+    "proj.ghonly":"GitHub only","proj.webadmin":"Web Admin","proj.androidapp":"Android App","proj.viewall":"View All on GitHub →","wp.label":"Client Work","wp.h2a":"WordPress Sites","wp.desc":"Full WordPress integrations — Astra themes, Spectra builder, advanced CSS/JS. Each site delivered pixel-perfect from a Figma mockup.","wp.cta":"View all WordPress sites →",
     "p1.title":"Winter Clothing Store","p1.desc":"Responsive demo for a winter fashion brand with sliders and editorial layout.",
     "p2.title":"Love Nature – Paysage","p2.desc":"Environmental awareness landing page with full-screen hero.",
     "p3.title":"Boulangerie","p3.desc":"Elegant bakery website with menu and Figma visual identity.",
@@ -1186,7 +1186,7 @@ const T = {
     "footer.rights":"All rights reserved","footer.built":"Built with","footer.top":"Back to top ↑"
   },
   fr:{
-    "nav.about":"À propos","nav.exp":"Expérience","nav.skills":"Compétences","nav.projects":"Projets","nav.services":"Services","nav.contact":"Contact",
+    "nav.about":"À propos","nav.exp":"Expérience","nav.skills":"Compétences","nav.projects":"Projets","nav.services":"Services","nav.wp":"WordPress","nav.contact":"Contact",
     "hero.available":"Disponible en Freelance","hero.title":"Intégratrice Web · Développeuse Front-End",
     "hero.desc":"Transformer des maquettes Figma en sites web responsives pixel-parfaits depuis 5 ans — spécialisée en HTML5, SCSS, JavaScript, WordPress & Symfony.",
     "hero.cta1":"Voir les projets","hero.cta2":"Me contacter","hero.badge":"Années d'\nexpérience","hero.scroll":"Défiler",
@@ -1225,7 +1225,7 @@ const T = {
     "srv5.t":"Maintenance Web","srv5.d":"Mises à jour, monitoring et correctifs de sécurité.",
     "srv6.t":"Optimisation SEO","srv6.d":"Audits SEO techniques et amélioration des Core Web Vitals.",
     "proj.title":"Projets","proj.label":"Réalisations","proj.demo":"↗ Voir le projet",
-    "proj.ghonly":"GitHub uniquement","proj.webadmin":"Admin Web","proj.androidapp":"App Android","proj.viewall":"Voir tout sur GitHub →",
+    "proj.ghonly":"GitHub uniquement","proj.webadmin":"Admin Web","proj.androidapp":"App Android","proj.viewall":"Voir tout sur GitHub →","wp.label":"Réalisations clients","wp.h2a":"Sites WordPress","wp.desc":"Intégration complète de sites WordPress sur mesure — thèmes Astra, constructeur Spectra, personnalisation CSS/JS avancée. Chaque site livré pixel-perfect à partir d'une maquette Figma.","wp.cta":"Voir tous les sites →",
     "p1.title":"Boutique Vêtements Hiver","p1.desc":"Site démo pour une marque hivernale avec sliders et mise en page éditoriale.",
     "p2.title":"Love Nature – Paysage","p2.desc":"Page de sensibilisation environnementale avec hero plein écran.",
     "p3.title":"Boulangerie","p3.desc":"Site élégant pour boulangerie avec menu et identité visuelle Figma.",
@@ -1245,7 +1245,6 @@ const T = {
     "footer.rights":"Tous droits réservés","footer.built":"Réalisé avec","footer.top":"Haut de page ↑"
   }
 };
-
 // ── APPLY LANGUAGE ─────────────────────────────────────────────────────────────
 function setLang(lang, fade) {
   const t = T[lang];
